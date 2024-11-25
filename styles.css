@@ -1,0 +1,134 @@
+/* General Reset */
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Wrapper */
+.wrapper {
+  font-family: 'Proxima Nova', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10vh;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+/* Navigation Buttons */
+div.back, div.forward {
+  display: none; /* Hide navigation buttons for simplicity on smaller screens */
+}
+
+/* Letter Wrapper */
+div.letter-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.letter {
+  display: none;
+  width: 100%;
+  border-radius: 1em;
+  position: relative;
+  padding: 1em;
+  margin: 1em 0;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.letter.active {
+  display: block;
+}
+
+.letter:nth-of-type(odd) {
+  background-color: rgba(232, 133, 135, 0.5);
+}
+
+.letter:nth-of-type(even) {
+  background-color: rgba(214, 183, 232, 0.5);
+}
+
+/* Fonts */
+.cursive {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+}
+
+.body {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.writer {
+  margin-top: 0.5em;
+  white-space: pre-wrap;
+}
+
+.writer:before {
+  content: "Love always, \A";
+  white-space: pre;
+}
+
+/* Decorative Heart */
+.heart {
+  position: absolute;
+  width: 50px;
+  height: 45px;
+  z-index: 0;
+  opacity: 0.4;
+  bottom: 10px;
+  right: 20px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  background: red;
+  width: 25px;
+  height: 40px;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin-top: 5vh;
+    padding: 0 5%;
+  }
+
+  .cursive {
+    font-size: 1em;
+  }
+
+  .body {
+    font-size: 0.8em;
+  }
+
+  .letter {
+    padding: 0.8em;
+    margin: 1em 0;
+  }
+
+  .heart {
+    width: 40px;
+    height: 35px;
+    bottom: 5px;
+    right: 10px;
+  }
+
+  .heart:before,
+  .heart:after {
+    width: 20px;
+    height: 30px;
+  }
+}
