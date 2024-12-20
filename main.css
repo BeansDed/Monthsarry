@@ -1,6 +1,5 @@
 @media only screen and (max-width: 414px) {
-  .text{visibility: collapse;}
-
+  
 }
 
 body {
@@ -10,9 +9,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffc765;
+    background-image:url("favorite.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20vh;
   }
-  
+
+
   #card {
     width: 0; 
     height: 0; 
@@ -20,7 +23,7 @@ body {
     border-right: 170px solid #c1e1ec;
     border-bottom: 100px solid #63c2e2;
     border-left: 170px solid #c1e1ec;
-    box-shadow: 10px 10px 5px #f7b23c;
+    box-shadow: 10px 10px 5px ;
   }
   
   .heart {
@@ -233,11 +236,17 @@ body {
     bottom: 16%;
     margin: 10px;
     font-style: italic;
+    color: white;
+    margin-bottom: 33vh;
+    font-size: 5vh;
+
 
     
   }
   p{
-    font-size: 25px;
-    color: #292727;
+    font-size: 5vh;
+    color: white;
     text-align: center;
+    margin-bottom: -2vh;
   }
+
