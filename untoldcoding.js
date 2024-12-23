@@ -1,5 +1,5 @@
 const text =
-  "Happy 9th monthsarry,               i know ngayon lang me nakagawa neto kasi super busy din po eh, and right now i want to make one just for this. Matagal ko ng gusto gawin tong website na to para wala lang. Anyway thank you for being here with me kahit minsan may nag aaway tayo and minsan naiinis tayo sa isa't isa, you're stillhere. And i just wanna say i'll be here for you anything you need, anything you want i want to help you specially super pagod pagod kana and i want to stay with you kahit sobrang baba mo na sa buhay mo i'll be here supporting you and pwede naman ikaw umiyak and rant everything saakin. Thank you for everthing teh HAPPY MONTHSARRY 💖💖💖. I will always love you <3";
+  "Hi to my Favorite Person, Happy NewYear and Happy 9TH Monthsarry. You are the person that i always admired because of how strong you are and how dedicated you are. I know na minsan we have some ups and downs and sometimes na stress kana hindi mo na mafocus lahat lahat and i am proud of you for being this strong. Thank you For being in my life this year, I can promise you i will always stay by your side no matter what, Thank you for everything I LOVEN YOU TEH <3";
 
 const paragraph = text.split("");
 
